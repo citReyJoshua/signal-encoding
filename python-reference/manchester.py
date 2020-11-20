@@ -24,7 +24,7 @@ for bit in bits:
 #initial values
 length = len(bits)
 
-#lower bound
+#higher bound
 print()
 for i in range(length):
     if bits[i]:
