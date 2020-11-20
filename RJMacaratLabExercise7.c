@@ -189,7 +189,7 @@ void displayManchester(int bits[], int size)
 
 void displayDiffManchester(int bits[], int size)
 {
-    int pos_state = 0;
+    int pos_state = 1;
     char *to_print = bits[0] ? top_right : top_left;
 
     // first row
@@ -226,7 +226,7 @@ void displayDiffManchester(int bits[], int size)
     }
 
     // third row
-    pos_state = 0;
+    pos_state = 1;
     printf("\n");
     for (int i = 0; i < size; i++)
     {
